@@ -1,3 +1,3 @@
-module.exports = {
-  secret: "apple",
+export default {
+  secret: "mine",
 };

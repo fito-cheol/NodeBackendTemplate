@@ -1,5 +1,5 @@
-const express = require("express");
-const connection = require("../../custom_lib/db_connection");
+import express from "express";
+import connection from "../../custom_lib/db_connection.js";
 
 const router = express.Router();
 
@@ -14,4 +14,4 @@ router.get("/list", function (req, res, next) {
   });
 });
 
-module.exports = router;
+export default router;

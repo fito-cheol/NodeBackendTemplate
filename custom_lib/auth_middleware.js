@@ -1,5 +1,5 @@
-const jwt = require("jsonwebtoken");
-const encrypt = require("../config/encrypt");
+import jwt from "jsonwebtoken";
+import encrypt from "../config/encrypt";
 const secret = encrypt.secret;
 
 const authMiddleware = (req, res, next) => {
@@ -39,4 +39,4 @@ const authMiddleware = (req, res, next) => {
   }).catch(onError);
 };
 
-module.exports = authMiddleware;
+export default authMiddleware;
