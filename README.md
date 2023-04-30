@@ -4,6 +4,6 @@
 3. 실행
    npm start
 
-http://localhost:3000/ 
-http://localhost:3000/api/sample 
-http://localhost:3000/api/sample/json 
+- http://localhost:3000/ 
+- http://localhost:3000/api/sample 
+- http://localhost:3000/api/sample/json 
